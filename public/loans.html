@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Préstamos</title>
+</head>
+<body>
+  <h1>Registrar Préstamo</h1>
+
+  <form id="loan-form">
+    <input type="number" id="user_id" placeholder="ID Usuario" required />
+    <input type="number" id="book_id" placeholder="ID Libro" required />
+    <input type="date" id="due_date" required />
+    <select id="status">
+      <option value="active">Activo</option>
+      <option value="returned">Devuelto</option>
+      <option value="overdue">Atrasado</option>
+    </select>
+    <button type="submit">Crear préstamo</button>
+  </form>
+
+  <h2>Historial</h2>
+  <ul id="loan-list"></ul>
+
+  <script src="js/loans.js"></script>
+</body>
+</html>
