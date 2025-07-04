@@ -5,7 +5,7 @@
 	font-family: 'Open Sans', Arial, sans-serif;
 }
 body {
-	background-image: url(../);
+	background-image: url(../imagenes/foto\ 2.jpg);
 	background-size: cover;
 	background-position: center;
 	min-height: 100vh;
@@ -106,4 +106,85 @@ p{
 	font-family: cursive;
 	
 }
+
+/* Estilos para el formulario de préstamo */
+#loan-form {
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  display: grid;
+  gap: 15px;
+}
+
+#loan-form input,
+#loan-form select {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  transition: border-color 0.3s ease;
+}
+
+#loan-form input:focus,
+#loan-form select:focus {
+  border-color: #28a745;
+  outline: none;
+}
+
+#loan-form button {
+  padding: 12px;
+  font-size: 16px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#loan-form button:hover {
+  background-color: #218838;
+}
+
+/* Título de historial */
+h2 {
+  text-align: center;
+  margin-top: 40px;
+  color: #333;
+}
+
+/* Lista de historial de préstamos */
+#loan-list {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 0;
+  list-style: none;
+}
+
+#loan-list li {
+  background-color: #f8f9fa;
+  border-left: 6px solid #28a745;
+  padding: 15px 20px;
+  margin-bottom: 12px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
+  transition: transform 0.2s;
+}
+
+#loan-list li:hover {
+  transform: scale(1.02);
+}
+
+h1 {
+  color: white; /* Letra blanca pura */
+  text-align: center;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Sombra para que resalte sobre el fondo */
+  margin-top: 30px;
+  font-size: 2.5rem;
+}
+
+
 
